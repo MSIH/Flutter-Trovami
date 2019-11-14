@@ -2,18 +2,19 @@ name: locate_pal
 description: A new Flutter project.
 
 environment:
-    sdk: '>=1.9.0 <2.0.0'
+    sdk: '>=2.0.0-dev.68.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 #  uri: ^0.10.0
-  map_view:
-    git:
-      url: git://github.com/Samaritan1011001/flutter_google_map_view.git
+  map_view: 0.0.14
+#    git:
+#      url: git://github.com/Samaritan1011001/flutter_google_map_view.git
 #  map_view: 0.0.4
-  google_sign_in: 1.0.1
-  firebase_database: 0.1.2
+  google_sign_in:
+  firebase_database: ^1.0.4
+  firebase_auth:
   cupertino_icons: ^0.1.0
 
 #dependency_overrides:
